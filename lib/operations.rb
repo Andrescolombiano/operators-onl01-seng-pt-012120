@@ -5,6 +5,7 @@ def unsafe?(speed)
     puts true
 else   
     puts false
+    bindin.pry
  end
 end
 
