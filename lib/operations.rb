@@ -1,11 +1,10 @@
 def unsafe?(speed)
-  if speed > 60
-    puts true
-  elsif speed < 40
-    puts true
+  if speed > "60"
+     true
+  elsif speed < "40"
+    true
 else   
-    puts false
-    binding.pry
+    false
  end
 end
 
