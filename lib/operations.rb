@@ -8,8 +8,8 @@ else
  end
 end
 
-true: safe <40 or >60
-false: unsafe 50
+# true: safe <40 or >60
+# false: unsafe 50
 
 
 def not_safe?(speed)
